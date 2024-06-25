@@ -1,6 +1,60 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@font-face {
+    font-family: "BearSansUI";
+    src: url("fonts/BearSansUI-Regular.otf");
+}
+@font-face {
+    font-family: "BearSansUI";
+    src: url("fonts/BearSansUI-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "BearSansUI";
+    src: url("fonts/BearSansUI-Italic.otf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "BearSansUI";
+    src: url("fonts/BearSansUI-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "BearSansUI-Medium";
+    src: url("fonts/BearSansUI-Medium.otf");
+}
+@font-face {
+    font-family: "BearSansUI";
+    src: url("fonts/BearSansUI-MediumItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "BearSansUIHeading-Regular";
+    src: url("fonts/BearSansUIHeading-Regular.otf");
+}
+@font-face {
+    font-family: "BearSansUIHeading-Bold";
+    src: url("fonts/BearSansUIHeading-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "BearSansUIHeading-BoldItalic";
+    src: url("fonts/BearSansUIHeading-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+$serif-primary: 'BearSansUI', 'Libre Baskerville', 'Times New Roman', Times, serif;
+
+
+
 $default-shade: #ac4142;
 $blue: #ac4142;
 @import 'tale';
